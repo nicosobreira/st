@@ -12,13 +12,15 @@ st with a few patches added to it:
 
 ## Install
 
-To install make sure that you have xlib and harfbuzz installed.
+To install make sure that you have **xlib** and **harfbuzz** installed.
 
 ``` bash
 git clone https://github.com/nicosobreira/st.git st
 cd st
-sudo make install
+make install
 ```
+
+> The install is local `~/.local/...` may need to add to `$PATH`
 
 ## Outro
 
